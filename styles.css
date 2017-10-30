@@ -1,0 +1,59 @@
+.main{
+	display: flex;
+}
+
+.test_panel{
+	width: 75%;
+}
+
+.right_panel{
+	width: 25%;
+	flex: 1;
+	border-left: 2px solid #ccc;
+}
+
+
+.timer_div{
+	background-color: #edf3ff;
+	border-bottom: 2px solid white; 
+}
+
+.timer_div img {
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.right_panel ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.right_panel ul li{
+	padding: 10px;
+	background-color: #ccdfff;
+	border-bottom:1px solid white; 
+}
+
+.right_panel ul .active{
+	background-color:#4CAF50;
+	padding-left: 30px;
+}
+
+.active:before{
+	content: "-";
+}
+
+.test_area{
+	margin: auto;
+	width: 80%;
+}
+
+iframe{
+	width: 100%;
+	height: 600px;
+	padding: 0;
+	line-height: 0;
+	display: block;
+	border:none;
+}
